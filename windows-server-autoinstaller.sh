@@ -38,7 +38,7 @@ case $choice in
         iso_file="windows2019.iso"
         ;;
     3)
-        # Windows Server 2022
+        # Windows Server 2012
         img_file="windows2012.img"
         iso_link="https://go.microsoft.com/fwlink/p/?LinkID=2195443&clcid=0x409&culture=en-us&country=US"
         iso_file="windows2012.iso"
