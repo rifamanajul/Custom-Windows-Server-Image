@@ -5,7 +5,7 @@ display_menu() {
     echo "Please select the Windows Server version:"
     echo "1. Windows Server 2016"
     echo "2. Windows Server 2019"
-    echo "3. Windows Server 2022"
+    echo "3. Windows Server 2012"
     read -p "Enter your choice: " choice
 }
 
@@ -39,9 +39,9 @@ case $choice in
         ;;
     3)
         # Windows Server 2022
-        img_file="windows2022.img"
-        iso_link="https://go.microsoft.com/fwlink/p/?LinkID=2195280&clcid=0x409&culture=en-us&country=US"
-        iso_file="windows2022.iso"
+        img_file="windows2012.img"
+        iso_link="https://go.microsoft.com/fwlink/p/?LinkID=2195443&clcid=0x409&culture=en-us&country=US"
+        iso_file="windows2012.iso"
         ;;
     *)
         echo "Invalid choice. Exiting."
